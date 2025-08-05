@@ -1,4 +1,4 @@
-#simple calculator for two Numbers
+#simple calculator for two Numbers and Arithematic Operations
 num1=int(input("Give value of number 1: "))
 num2=int(input("Give value of number 2: "))
 operator=input("Give a operator: ")
@@ -14,3 +14,4 @@ elif operator=="**":
     print(f"Squaring of a Number {num1**num2}")
 else:
     print("Not Valid")
+
